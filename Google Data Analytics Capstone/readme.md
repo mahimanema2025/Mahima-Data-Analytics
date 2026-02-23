@@ -1,13 +1,13 @@
-Overview This project performs RFM (Recency, Frequency, Monetary) analysis on retail customer data to segment customers based on their purchasing behavior. The segmentation helps businesses target high-value customers and design personalized marketing campaigns.
+Overview- This project explores a loan application dataset to identify key factors influencing loan approval decisions. Using exploratory data analysis and machine learning, we built a predictive model to assist financial institutions in making data-driven approval decisions.
 
-Objective To segment over 5,000 customers into value-based groups (High, Medium, Low) using RFM metrics to support data-driven marketing decisions.
+Objective- To analyze historical loan data and develop a model that accurately predicts loan approval status, aiding lenders in minimizing risk.
 
-Project Structure Retail_Customer_Segmentation_RFM.ipynb – RFM analysis and clustering. customer_data.csv – Dataset containing transaction history. README.md – Documentation of project details.
+Project Structure- Loan_Factors_EDA.ipynb – Exploratory Data Analysis on key features. Loan_Eligibility_Prediction_Model.ipynb – Machine learning pipeline. loan_data.csv – Dataset used for training and testing. README.md – Project documentation.
 
-Key Insights High-value customers showed recent and frequent purchases with high spend. Low-value groups were identified for potential re-engagement strategies. Visualized clusters using bar plots and boxplots for each RFM metric.
+Key Insights- Credit history and applicant income were the strongest predictors. Missing values in loan amount were handled using median imputation. Imbalanced class distribution was addressed before training.
 
-Methodology Calculated RFM scores and assigned customer segments Performed KMeans clustering for validation Created actionable visuals to guide marketing strategy
+Model & Results- Model Used: Naive Bayes Accuracy Achieved: 82% Evaluation: Confusion matrix and classification report
 
-Tools & Libraries Python, Pandas, NumPy, Matplotlib, Seaborn Scikit-learn (KMeans), Jupyter Notebook
+Tools & Libraries- Python, Pandas, NumPy, Matplotlib, Seaborn Scikit-learn (for preprocessing, modeling, and evaluation) Jupyter Notebook
 
-Business Impact Enabled personalized marketing and optimized ad spending Improved customer retention by identifying VIP segments
+Future Work- Implement ensemble models (e.g., Random Forest, XGBoost) Deploy via Streamlit dashboard for real-time eligibility checks
