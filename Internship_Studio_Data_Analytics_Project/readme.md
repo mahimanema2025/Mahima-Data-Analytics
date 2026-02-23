@@ -1,3 +1,5 @@
+Retail Chain RFM analysis and Customer Segmentation
+
 Overview This project performs RFM (Recency, Frequency, Monetary) analysis on retail customer data to segment customers based on their purchasing behavior. The segmentation helps businesses target high-value customers and design personalized marketing campaigns.
 
 Objective To segment over 5,000 customers into value-based groups (High, Medium, Low) using RFM metrics to support data-driven marketing decisions.
